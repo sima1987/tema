@@ -1,0 +1,135 @@
+body {
+    background-color: palegoldenrod;
+}
+
+h1 {
+    font-size: 3.5em;
+    position: absolute;
+    color: blue;
+    top: 25%;
+    left: 33%;
+}
+h2 {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 450px;
+}
+h3 {
+  position: absolute;
+  bottom: 8px;
+}
+h4 {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 20px ;
+}
+.a {
+    height: 9em;
+    width: 9em;
+    background-color: orange;
+    border-radius: 50%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.b {
+    background-color: red;
+    position: absolute; 
+    top: 4%; 
+    left: -0.1%; 
+    transform: translate(-50%, -50%); 
+    height: 150px; 
+    width: 250px; 
+    border-radius: 150px 150px 0 0; 
+    transform: rotate(140deg);
+    z-index: -1; 
+    }
+.c {
+    background-color: blue;
+    position: absolute;
+    height: 120px;
+    width: 250px;
+    transform: translate(-50%, -50%); 
+    border-radius: 150px 150px 0 0;
+    transform: rotate(180deg);
+    top: 0.1em;
+    left: 40em;
+    }
+.d {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 20px solid orange;
+    border-radius: 50%;  
+    border-bottom-color: transparent;
+    border-left-color: transparent;   
+    transform: rotate(-30deg);
+    top: 0.1em;
+    right: 20%;
+  }
+.e {
+    background-color: blue;
+    position: absolute;
+    height: 150px;
+    width: 300px;
+    transform: translate(-50%, -50%); 
+    border-radius: 150px 150px 0 0;
+    transform: rotate(30deg);
+    top: 50%;
+    left: -3%;   
+    }
+.f {
+    background-color: rgb(27, 154, 238);
+    position: absolute; 
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    z-index: 1;
+    top: 48%;
+    left: 4%;
+    }
+.g {
+    background-color: yellow;
+    position: absolute;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    right: -1%;
+    top: 70%;
+    }
+.h {
+    background-color: blue;
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    transform: translate(-50%, -50%); 
+    border-radius: 140px 140px 0 0;
+    transform: rotate(80deg);
+    right: -3%;
+    top: 60%;
+    z-index: -1;
+    }
+.i {
+    background-color: red;
+    position: absolute;
+    height: 120px;
+    width: 250px;
+    transform: translate(-50%, -50%); 
+    border-radius: 150px 150px 0 0;
+    transform: rotate(200deg);
+    bottom: 0.5%;
+    right: 30%;
+    }
+.j {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border: 10px solid blue;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(-20deg);
+    right: 16%;
+    bottom: 5%;
+    }
