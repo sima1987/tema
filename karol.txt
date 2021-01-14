@@ -1,0 +1,19 @@
+this.run = function(steps) {
+for (i = 1 ; i <= steps; i++) {
+    this.move()
+  }
+}
+
+
+
+
+
+
+
+
+
+this.putBeeper()
+this.run(4)
+this.run(4)
+this.putBeeper()
+this.run(4)
