@@ -1,0 +1,22 @@
+body {
+    background-color: aqua;
+}
+#container {
+    background-color: rgba(209, 230, 16, 0.658);
+    border: 5px solid white;
+    height: 275px;
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+#input {
+    width: 100px;
+    margin: 25px auto;
+}
+p {
+    font-size: 20px;
+}
+
+#but {
+    margin: 5px auto;
+}
